@@ -1,4 +1,45 @@
+<img width="828" height="562" alt="Screenshot 2025-10-15 232124" src="https://github.com/user-attachments/assets/5a023c26-f5ff-4d69-8b6b-5b421c81e89e" />
 # Getting Started with Create React App
+
+Core Features
+AI-powered search with GenerativeUI
+Natural language question understanding
+Multiple search providers support (Tavily, SearXNG, Exa)
+Model selection from UI (switch between available AI models)
+Reasoning models with visible thought process
+
+
+Chat & History
+Chat history functionality (Optional)
+Share search results (Optional)
+Redis support (Local/Upstash)
+AI Providers
+The following AI providers are supported:
+
+OpenAI (Default)
+Google Generative AI
+Azure OpenAI
+Anthropic
+Ollama
+Groq
+DeepSeek
+Fireworks
+xAI (Grok)
+OpenAI Compatible
+Models are configured in public/config/models.json. Each model requires its corresponding API key to be set in the environment variables. See Configuration Guide for details.
+
+Search Capabilities
+URL-specific search
+Video search support (Optional)
+SearXNG integration with:
+Customizable search depth (basic/advanced)
+Configurable engines
+Adjustable results limit
+Safe search options
+Custom time range filtering
+Additional Features
+Docker deployment ready
+Browser search engine integration
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +109,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
